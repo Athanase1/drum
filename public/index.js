@@ -5,5 +5,5 @@ for(i = 0; i < length; i++){
 }
 function handleClick(){
    var audio = new Audio("../assets/sounds/tom-1.mp3")
-   audio.play();
+   return audio.play();
 }
